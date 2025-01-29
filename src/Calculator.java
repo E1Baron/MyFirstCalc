@@ -12,7 +12,7 @@ public class Calculator {
             try {
                 firstNum = new Scanner(System.in).nextDouble();
             } catch (InputMismatchException exception) {
-                System.out.println("Введённо неподходящее значение");
+                System.out.println("Введено неподходящее значение");
                 continue;
             }
             break;
